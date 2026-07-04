@@ -29,7 +29,7 @@ The project uses the classic Cleveland Heart Disease dataset (from the UCI repos
 - **Preprocessing:** Handling missing values and applying the Yeo-Johnson transformation to normalize skewed distributions (e.g., blood pressure and cholesterol levels).
 - **Multidimensional Analysis:** Using Pairplots and 3D Scatter plots to identify risk clusters (e.g., `Exercise Angina` × `Diseased Vessels` ×` ST Depression`).
 
-<img src="png/3D_plot_part.png" width="700">
+<img src="png/3D_plot_part.png" width="800">
 - **Baseline Model:** Training an out-of-the-box CatBoost strictly to extract feature importance and plot 2D Partial Dependence Plots (identifying synergistic risk factors).
 
 ### 2. Pipelines, Tuning, and Error Analysis
